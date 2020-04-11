@@ -1,0 +1,43 @@
+{
+  "baseURL": "https://develop.d2pru1nc16cre5.amplifyapp.com/",
+  "languageCode": "en-us",
+  "title": "NLP Ventures",
+  "disableKinds": ["taxonomy", "taxonomyTerm"],
+  "params": {
+    "featuredImages": [
+      {
+        "url": "assets/images/Works/dwane.jpg"
+      },
+      {
+        "url": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJiOWZhNTZhZS1lODFhLTRjNTctYTFkOC0xZjU3OWM3NzdhZmMifQ=="
+      },
+      {
+        "url":  "assets/images/Works/theplayerstribune.jpg"
+      },
+      {
+        "url": "assets/images/Works/slider.jpg"
+      },
+      {
+        "url": "assets/images/Works/kplus_lo.jpg"
+      },
+      {
+        "url": "assets/images/Works/fitteamfive.jpg"
+      },
+      {
+        "url": "assets/images/Works/cleatgrip.jpg"
+      },
+      {
+        "url":  "assets/images/Works/carmelo.jpg"
+      },
+      {
+        "url": "assets/images/Works/mission.jpg"
+      },
+      {
+        "url": "assets/images/Works/40under40.jpg"
+      },
+      {
+        "url": "assets/images/Works/nbceverywhere.jpg"
+      }
+    ]
+  }
+}

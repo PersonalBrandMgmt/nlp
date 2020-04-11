@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zxx">
+{{ $title := site.Title }}
+{{ if not .IsHome }}
+{{ end }}
+<head>
+  <title>{{ $title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#E9204F">
+  <link rel="stylesheet" href="assets/css/normalize.min.css"/>
+  <link rel="stylesheet" href="assets/css/pr.animation.css"/>
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="assets/css/uikit.min.css"/>
+  <link rel="stylesheet" href="assets/css/fonts.css"/>
+  <link rel="stylesheet" href="assets/css/pixeicons.css"/>
+  <link rel="stylesheet" href="assets/css/glide.core.min.css">
+<!--  <link rel="stylesheet" href="assets/css/glide.theme.min.css">-->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="/css/some-style.css">
+<!--</head>-->
+<body>
+<!--<header>-->
+<!--  &lt;!&ndash; some header &ndash;&gt;-->
+<!--</header>-->
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+<!--<footer>-->
+<!--  &lt;!&ndash; some footer &ndash;&gt;-->
+<!--</footer>-->
+<!--</body>-->
+<!--  <script src="assets/js/glide.min.js"></script>-->
+<!--  <script>-->
+<!--    new Glide('.glide').mount()-->
+<!--  </script>-->
+
+</body>
+</html>
