@@ -2,7 +2,7 @@
 title: "9 - NY Times"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/nyt.jpg"
+image: "assets/images/logos/nyt_.png"
 series: "press"
 articleUrl: "https://www.nytimes.com/2011/09/30/sports/basketball/miamis-wade-gets-traction-literally-on-court.html?_r=2&"
 ---
