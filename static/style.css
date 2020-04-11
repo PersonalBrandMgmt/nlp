@@ -119,23 +119,17 @@ h6,
 .pr-text-large {
   font-size: 24px; }
 
+.pr-text-medium {
+  font-size: 18px;
+}
+
+.pr-text-medium.pr__dark {
+  font-size: 18px;
+  color: #ffffff;
+}
+
 .pr-text-small {
   font-size: 14px; }
-
-/* Glide.js Custom */
-/*.glide-container {*/
-/*  height: 8vh;*/
-/*  width: 100%;*/
-/*  display: -webkit-box;*/
-/*  display: -ms-flexbox;*/
-/*  display: flex;*/
-/*  -webkit-box-pack: center;*/
-/*  -ms-flex-pack: center;*/
-/*  justify-content: center;*/
-/*  -webkit-box-align: center;*/
-/*  -ms-flex-align: center;*/
-/*  align-items: center;*/
-/*}*/
 
 /* Blockquote */
 blockquote > p {
@@ -196,8 +190,8 @@ strong {
         width: 100%;
         /*height: 28px;*/
         height: 128px;
-        /*background-image: url('/assets/images/Logo.svg');*/
-        background-image: url('/assets/images/NLP-Logo-Official.png');
+        /*background-image: url('/assets/images/NLP-Logo-Official.png');*/
+        background-image: url('/assets/images/NLP-Logo-Horizontal-White.png');
         background-size: cover;
         background-repeat: no-repeat; }
     .pr__header .inner .navbar {
@@ -229,13 +223,13 @@ strong {
     background-color: #fafafa; }
     .pr__header.uk-active .inner {
       height: 140px; }
-  .pr__header.pr__dark .inner .logo .brand {
-    background-position-y: -28px; }
+  /*.pr__header.pr__dark .inner .logo .brand {*/
+  /*  background-position-y: -28px; }*/
   .pr__header.pr__dark .inner a,
   .pr__header.pr__dark .inner .lang {
-    color: #fafafa !important; }
+    color: #FFFFFF !important; }
   .pr__header.pr__dark .inner .navbar-tigger > span {
-    background-color: #fafafa; }
+    background-color: #FFFFFF; }
   .pr__header.pr__dark.uk-active {
     background-color: rgba(0, 0, 0, 0.9); }
 
@@ -380,7 +374,7 @@ strong {
       color: #fafafa !important; }
     .pr__hero__wrap.pr__dark .uk-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
       color: #fafafa;
-      opacity: .5; }
+      opacity: 0; }
     .pr__hero__wrap.pr__dark .item.feature-box .inner {
       background-color: #1b1b1b; }
 
@@ -1339,6 +1333,14 @@ body.single-post .hero-content {
   overflow: hidden;
   background-color: #1b1b1b;
   color: #747474; }
+
+.pr__footer.pr__dark {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background-color: #000000;
+  color: #747474; }
+
   .pr__footer a,
   .pr__footer .title {
     color: #fafafa; }
@@ -1543,6 +1545,11 @@ body.single-post .hero-content {
     color: #000000;
     position: relative;
     z-index: 1; }
+.uk-button.uk-button-default.pr__dark {
+  border-color: #ffffff !important;
+  color: #000000;
+  position: relative;
+  z-index: 1; }
     .uk-button.uk-button-default:after {
       content: '';
       position: absolute;
@@ -1887,7 +1894,7 @@ body #loader {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #000000; }
+        background-color: #E9204F; }
   body #loader.pr__dark {
     background: #000000; }
     body #loader.pr__dark .progress {
@@ -2032,6 +2039,11 @@ a.uk-slidenav {
                 .pr__header .inner .navbar .menu > ul > li:hover a:after, .pr__header .inner .navbar .menu > ul > li.uk-active a:after {
                   width: 20px;
                   color: #000000; }
+              .pr__header .inner .navbar .menu .pr__dark > ul > li:hover a, .pr__header .inner .navbar .menu > ul > li.uk-active a {
+                color: #ffffff; }
+                .pr__header .inner .navbar .menu > ul > li:hover a:after, .pr__header .inner .navbar .menu > ul > li.uk-active a:after {
+                  width: 20px;
+                  color: #ffffff; }
         .pr__header .inner .navbar .lang {
           min-width: 40px;
           text-align: right;
@@ -2049,8 +2061,8 @@ a.uk-slidenav {
       height: 140px; }
       .pr__header.uk-active .inner {
         height: 150px; }
-    .pr__header.pr__dark .inner .logo .brand {
-      background-position-y: -32px; }
+    /*.pr__header.pr__dark .inner .logo .brand {*/
+    /*  background-position-y: -32px; }*/
   body.page-template .pr__hero__wrap .pr__header .inner .logo .brand {
     background-position-y: -32px; }
   /* Section: Global */
@@ -2143,16 +2155,16 @@ a.uk-slidenav {
 
 @media (max-width: 960px) {
   .pr__header .inner {
-    padding-top: 15px; }
+    padding-top: 25px; }
 .pr__header .inner .logo {
   /*width: 90px; }*/
   width: 100px; }
 .pr__header .inner .logo .brand {
   display: inline-block;
-  width: 100%;
+  width: 275%;
   /*height: 28px;*/
   height: 100px;
   /*background-image: url('/assets/images/Logo.svg');*/
-  background-image: url('/assets/images/Linked-In-White.png');
+  background-image: url('/assets/images/NLP-Logo-Horizontal-White.png');
   background-size: cover;
   background-repeat: no-repeat; } }

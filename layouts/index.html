@@ -1,7 +1,7 @@
 {{ define "main" }}
 <body class="home front-page">
 
-<div id="loader" class="preloader">
+<div id="loader" class="preloader {{ .Site.Params.dark }}">
             <span class="loading">
                 <span class="txt">Loading</span>
                 <span class="progress">
@@ -29,16 +29,16 @@
 
 <div class="pr__wrapper" id="site-wrapper">
 
-  <div class="pr__hero__wrap" style="background-image: url('assets/images/hero_01.png');" id="site-hero">
+  <div class="pr__hero__wrap {{ .Site.Params.dark }}" style="background-image: url('assets/images/hero_01.png');" id="site-hero">
 
-    <header class="pr__header" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;">
+    <header class="pr__header {{ .Site.Params.dark }}" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;">
       <div class="uk-container">
         <div class="inner">
           <div class="logo">
             <div class="brand"></div>
           </div>
           <div class="navbar pr-font-second">
-            <nav class="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
+            <nav class="menu {{ .Site.Params.dark }}" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
               <ul>
                 <li><a href="#pr__hero">Home</a></li>
                 <li><a href="#pr__services">Portfolio</a></li>
@@ -65,7 +65,7 @@
             <h1 class="title uk-h1">Founders' Most Trusted Teammate.<br/>Investors' Strongest Defender.</h1>
             {{ range where .Site.Pages "Params.series" "about" }}
             <div data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
-              <a class="button uk-button uk-button-small uk-button-default uk-margin-top" href="#pr__about">Learn More</a>
+              <a class="button uk-button uk-button-small uk-button-default uk-margin-top pr__dark" href="#pr__about">Learn More</a>
             </div>
             {{ end }}
           </div>

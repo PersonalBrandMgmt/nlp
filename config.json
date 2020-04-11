@@ -4,6 +4,7 @@
   "title": "NLP Ventures",
   "disableKinds": ["taxonomy", "taxonomyTerm"],
   "params": {
+    "dark": "pr__dark",
     "featuredImages": [
       {
         "url": "assets/images/Works/dwane.jpg"
