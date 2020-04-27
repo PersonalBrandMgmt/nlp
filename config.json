@@ -6,37 +6,48 @@
   "params": {
     "featuredImages": [
       {
-        "url": "assets/images/Works/dwane.jpg"
+        "url": "assets/images/Works/dwane-min.jpg",
+        "alt": "Mark French Dwyane Wade Court Grip"
       },
       {
-        "url": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJiOWZhNTZhZS1lODFhLTRjNTctYTFkOC0xZjU3OWM3NzdhZmMifQ=="
+        "url": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJiOWZhNTZhZS1lODFhLTRjNTctYTFkOC0xZjU3OWM3NzdhZmMifQ==",
+        "alt": "Mark French Twenty"
       },
       {
-        "url":  "assets/images/Works/theplayerstribune.jpg"
+        "url":  "assets/images/Works/theplayerstribune-min.jpg",
+        "alt": "Mark French Blake Griffin Derek Jeter The Players' Tribune"
       },
       {
-        "url": "assets/images/Works/slider.jpg"
+        "url": "assets/images/Works/slider-min.jpg",
+        "alt": "Mark French AdAge"
       },
       {
-        "url": "assets/images/Works/kplus_lo.jpg"
+        "url": "assets/images/Works/kplus_lo-min.jpg",
+        "alt": "Mark French K Plus Organics"
       },
       {
-        "url": "assets/images/Works/fitteamfive.jpg"
+        "url": "assets/images/Works/fitteamfive-min.jpg",
+        "alt": "Mark French Fit Team Five"
       },
       {
-        "url": "assets/images/Works/cleatgrip.jpg"
+        "url": "assets/images/Works/cleatgrip-min.jpg",
+        "alt": "Mark French Cleat Grip"
       },
       {
-        "url":  "assets/images/Works/carmelo.jpg"
+        "url":  "assets/images/Works/carmelo-min.jpg",
+        "alt": "Mark French Carmelo Anthony Court Grip"
       },
       {
-        "url": "assets/images/Works/mission.jpg"
+        "url": "assets/images/Works/mission-min.jpg",
+        "alt": "Mark French Serena Williams Mission"
       },
       {
-        "url": "assets/images/Works/40under40.jpg"
+        "url": "assets/images/Works/40under40-min.jpg",
+        "alt": "Mark French Forbes 40 Under 40"
       },
       {
-        "url": "assets/images/Works/nbceverywhere.jpg"
+        "url": "assets/images/Works/nbceverywhere-min.jpg",
+        "alt": "Mark French NBC Everywhere"
       }
     ]
   }

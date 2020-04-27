@@ -6,7 +6,6 @@
           <div class="left">
             <hr class="line pr__hr__secondary">
             <h2 class="title uk-h2">Portfolio.</h2>
-<!--            <span class="subtitle pr__heading__secondary">We work with you, Not for you</span>-->
           </div>
         </div>
       </div>
@@ -16,7 +15,7 @@
         <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
           {{ range where .Site.Pages "Params.series" "portfolio" }}
           <a href="{{ .Params.articleUrl }}" target="_blank">
-            <div class="inner"><img src="{{ .Params.image }}" alt="NLP Ventures" height="200" width="
+            <div class="inner"><img src="{{ .Params.image }}" alt="{{ .Params.imageMetadata }} {{ .Params.title }}" height="200" width="
             {{ if .Params.width }}
               {{ .Params.width }}
             {{ else }}
@@ -30,4 +29,3 @@
     </div>
   </div>
 </section><!-- Section: Portfolio End -->
-<!--<hr class="pr__vr__section">-->

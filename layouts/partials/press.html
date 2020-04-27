@@ -17,7 +17,7 @@
         <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-margin-small" data-uk-grid="">
           {{ range where .Site.Pages "Params.series" "press" }}
           <a href="{{ .Params.articleUrl }}" target="_blank">
-            <div class="inner"><img src="{{ .Params.image }}" alt="NLP Ventures" height="200" width="
+            <div class="inner"><img src="{{ .Params.image }}" alt="{{ .Params.imageMetadata }} {{ .Params.title }}" height="200" width="
             {{ if .Params.width }}
               {{ .Params.width }}
             {{ else }}

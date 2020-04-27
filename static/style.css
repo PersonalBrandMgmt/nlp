@@ -196,8 +196,7 @@ strong {
         width: 100%;
         /*height: 28px;*/
         height: 128px;
-        /*background-image: url('/assets/images/Logo.svg');*/
-        background-image: url('/assets/images/NLP-Logo-Official.png');
+        background-image: url('/assets/images/NLP-Logo-Official-min.png');
         background-size: cover;
         background-repeat: no-repeat; }
     .pr__header .inner .navbar {
@@ -2150,6 +2149,6 @@ a.uk-slidenav {
     display: inline-block;
     width: 275%;
     height: 100px;
-    background-image: url('/assets/images/NLP-Logo-Horizontal.png');
+    background-image: url('/assets/images/NLP-Logo-Horizontal-min.png');
     background-size: cover;
     background-repeat: no-repeat; } }

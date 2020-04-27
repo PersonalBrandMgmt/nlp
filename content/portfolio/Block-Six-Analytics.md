@@ -2,10 +2,11 @@
 title: "9 - Block Six Analytics"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/b6a.png"
+image: "assets/images/logos/b6a-min.png"
 series: "portfolio"
 width: "125"
 articleUrl: "https://www.blocksixanalytics.com/"
+imageMetadata: "Mark French Portfolio"
 ---
 <p class="uk-text-lead">
 Mark French has created and operated disruptive business innovations in the sports, consumer goods, media and technology industries. As the recipient of three ‘40 Under 40 Awards’ in three

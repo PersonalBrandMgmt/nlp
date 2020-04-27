@@ -1,24 +1,13 @@
 <section class="pr__services pr__section uk-section uk-section-xsmall" id="pr__images">
   <div class="uk-container uk-slider-container">
     <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-<!--      <div class="section-heading">-->
-<!--        <div class="uk-container">-->
-<!--          <div class="inner">-->
-<!--            <div class="left">-->
-<!--              <hr class="line pr__hr__secondary">-->
-<!--              <h2 class="title uk-h1">Featured Images.</h2>-->
-<!--              &lt;!&ndash;            <span class="subtitle pr__heading__secondary">We work with you, Not for you</span>&ndash;&gt;-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
       <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
         <div class="glide">
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
               {{ range $.Site.Params.featuredImages }}
               <li class="glide__slide">
-                <img src="{{ .url }}" alt="Fit Team Five"/>
+                <img src="{{ .url }}" alt="{{ .alt }}"/>
               </li>
               {{ end }}
             </ul>
