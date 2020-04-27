@@ -2,9 +2,10 @@
 title: "A - Bleacher Report"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/br.png"
+image: "assets/images/logos/br-min.png"
 series: "press"
 articleUrl: "https://bleacherreport.com/articles/1527486-dwyane-wade-and-court-grip-changes-the-game-for-nba-players-in-a-good-way"
+imageMetadata: "Mark French Press"
 ---
 <p class="uk-text-lead">
 Mark French has created and operated disruptive business innovations in the sports, consumer goods, media and technology industries. As the recipient of three ‘40 Under 40 Awards’ in three

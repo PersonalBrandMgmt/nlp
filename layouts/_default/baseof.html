@@ -4,7 +4,7 @@
 {{ if not .IsHome }}
 {{ end }}
 <head>
-  <title>{{ $title }}</title>
+  <title>{{ $title }} - Mark French</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="/">
@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="assets/css/fonts.css"/>
   <link rel="stylesheet" href="assets/css/pixeicons.css"/>
   <link rel="stylesheet" href="assets/css/glide.core.min.css">
-<!--  <link rel="stylesheet" href="assets/css/glide.theme.min.css">-->
   <link href="style.css" rel="stylesheet">
 </head>
 
@@ -31,22 +30,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" href="/css/some-style.css">
-<!--</head>-->
 <body>
-<!--<header>-->
-<!--  &lt;!&ndash; some header &ndash;&gt;-->
-<!--</header>-->
 <main>
   {{ block "main" . }}{{ end }}
 </main>
-<!--<footer>-->
-<!--  &lt;!&ndash; some footer &ndash;&gt;-->
-<!--</footer>-->
-<!--</body>-->
-<!--  <script src="assets/js/glide.min.js"></script>-->
-<!--  <script>-->
-<!--    new Glide('.glide').mount()-->
-<!--  </script>-->
-
 </body>
 </html>

@@ -2,9 +2,10 @@
 title: "Avon Old Farms"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/adage.png"
+image: "assets/images/logos/adage-min.png"
 series: "press"
 articleUrl: "https://adage.com/article/media/nbc-host-digital-home-upfront/122861"
+imageMetadata: "Mark French Press"
 ---
 <p class="uk-text-lead">
 Mark French has created and operated disruptive business innovations in the sports, consumer goods, media and technology industries. As the recipient of three ‘40 Under 40 Awards’ in three
