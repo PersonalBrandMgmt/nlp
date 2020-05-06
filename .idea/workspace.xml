@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,11 +63,18 @@
       <workItem from="1586718807567" duration="198000" />
       <workItem from="1587401138556" duration="473000" />
       <workItem from="1587953696045" duration="468000" />
-      <workItem from="1587954820033" duration="1810000" />
+      <workItem from="1587954820033" duration="3007000" />
+      <workItem from="1588541132654" duration="752000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="514" y="250" width="680" height="518" key="find.popup" timestamp="1588541174037">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="514" y="250" width="680" height="518" key="find.popup/0.23.1680.972@0.23.1680.972" timestamp="1588541174037" />
   </component>
 </project>
