@@ -4,7 +4,7 @@ date: 2020-02-23T14:33:35-05:00
 draft: false
 image: "assets/images/logos/forbes-min.png"
 series: "press"
-articleUrl: "https://www.forbes.com/sites/jasonbelzer/2016/03/14/how-serial-entrepreneur-mark-french-became-the-sports-and-entertainment-industrys-biggest-disruptor/#401f707e7b47"
+articleUrl: "https://www.forbes.com/sites/patriciatraina/2021/07/07/new-york-giants-running-back-saquon-barkley-invests-in-x2-performance/?sh=787fe8031f12"
 imageMetadata: "Mark French Press"
 ---
 <p class="uk-text-lead">

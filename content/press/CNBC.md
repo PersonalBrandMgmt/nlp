@@ -4,7 +4,7 @@ date: 2020-02-23T14:33:35-05:00
 draft: false
 image: "assets/images/logos/cnbc-min.png"
 series: "press"
-articleUrl: "https://vimeo.com/87222071"
+articleUrl: "https://www.cnbc.com/video/2021/07/07/ny-giants-running-back-saquon-barkley-on-investing-in-x2-energy-drinks.html"
 imageMetadata: "Mark French Press"
 ---
 <p class="uk-text-lead">
