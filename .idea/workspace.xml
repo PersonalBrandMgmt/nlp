@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/content/press/Extra.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/assets/images/Works/Mark-Kendall.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/assets/images/Works/Saquon-Mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/images/logos/extra-min.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/press/CNBC.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/press/CNBC.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/press/Forbes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/press/Forbes.md" afterDir="false" />
@@ -39,9 +40,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/assets/images/logos" />
       <recent name="$PROJECT_DIR$/static/assets/images/Works" />
       <recent name="$PROJECT_DIR$/static/assets/images" />
-      <recent name="$PROJECT_DIR$/static/assets/images/logos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/press" />
